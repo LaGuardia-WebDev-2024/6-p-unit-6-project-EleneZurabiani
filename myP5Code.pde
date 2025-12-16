@@ -12,10 +12,16 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
-  //head
-  ellipse (200,200,280,250);
-  ellipse (140,175,65,50);
-  ellipse (260,175,50,65)
+  //head 
+  fill (255,255,0)
+ triangle(130, 305, 210, 100, 330, 300)
+ fill(255,255,255)
+ ellipse(220, 205, 70, 60)
+ fill(0,0,0)
+ ellipse(220,205,7,30)
+ strokeWeight(10)
+ line(258, 305, 308, 375)
+ line(198,309,185,340)
 
 
 }
