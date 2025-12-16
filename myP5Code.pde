@@ -20,8 +20,37 @@ void draw(){
  fill(0,0,0)
  ellipse(220,205,7,30)
  strokeWeight(10)
+ //eyes
  line(258, 305, 308, 375)
  line(198,309,185,340)
+ line(184,345,196,377)
+ line(196,381,166,379)
+ line(313,376,333,366)
+ strokeWeight(7)
+ line(165,202,2,187)
+ line(283,215,400,222)
+ strokeWeight(8)
+ line(2,174, 45,292) 
+ strokeWeight(2)
+ //eyelashes
+ line(202,177,197,170)
+ line(210,174,205,163)
+ line(221,175,222,161)
+ line(232,176,235,168)
+ line(201,230,197,238)
+ line(210,235,207,242)
+ line(232,235,235,242)
+ line(245,228,251,235)
+ //bowtie
+ triangle(199,258,222,267,201,275)
+ triangle(222,267,241,256, 244,274)
+ //hat
+ strokeWeight(4)
+ line(184,99,233,95)
+ 
+ rect(199,13,20,85)
+ 
+
 
 
 }

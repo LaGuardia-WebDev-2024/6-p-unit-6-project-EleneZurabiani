@@ -1,15 +1,8 @@
 body {
-   background-image: linear-gradient(
-    to right, /* or 'to bottom' for horizontal stripes, or an angle like 45deg */
-    #DAA928 0%, /* Red starts at 0% */
-    #FB8931 25%, /* Red ends at 25% */
-    #E7541E 35%, /* Blue starts at 25% */
-    #509844 50%, /* Blue ends at 50% */
-    #D03499 60%, /* Green starts at 50% */
-    #1E7BC9 75%, /* Green ends at 75% */
-    #B121B6 85%, /* Yellow starts at 75% */
-    #DD133B 100% /* Yellow ends at 100% */
-  );
+   background-image: url(https://static.wikia.nocookie.net/gravityfalls/images/c/c8/S2e18_open_sky.jpg/revision/latest/scale-to-width-down/1200?cb=20151101013913);
+ background-repeat: no-repeat;
+   background-position: center; 
+  background-size: cover; 
 }
 
 html{
@@ -19,13 +12,13 @@ html{
 
 #myCanvas {
   border-radius: 30px;
-  border: 15px double rgb(0, 0, 0);
+  border: 15px double rgb(247, 231, 20);
 }
 
 .container{
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: rgba(254, 255, 233, 0);
   justify-content: space-around;
   align-items: flex-start;
   padding-bottom: 60px;
@@ -37,17 +30,20 @@ html{
   width: 400px;
   object-fit: cover;
   border-radius: 30px;
-  border: 15px double rgb(0, 0, 0);
+  border: 15px double rgba(239, 243, 17, 0.699);
 }
 
 h2{
-  color: black;
+  color: rgb(230, 216, 22);
 }
 
 #start{
   text-align: left;
+  
 }
 
 #end{
   text-align: right;
 }
+
+
