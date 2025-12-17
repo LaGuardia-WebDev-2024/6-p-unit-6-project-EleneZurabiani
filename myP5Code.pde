@@ -15,12 +15,13 @@ void draw(){
   //head 
   fill (255,255,0)
  triangle(130, 305, 210, 100, 330, 300)
+ //eye
  fill(255,255,255)
  ellipse(220, 205, 70, 60)
  fill(0,0,0)
  ellipse(220,205,7,30)
+ //limbs
  strokeWeight(10)
- //eyes
  line(258, 305, 308, 375)
  line(198,309,185,340)
  line(184,345,196,377)
@@ -47,7 +48,6 @@ void draw(){
  //hat
  strokeWeight(4)
  line(184,99,233,95)
- 
  rect(199,13,20,85)
  
 
